@@ -3,7 +3,7 @@
 import turtle
 turtle.speed(0)
 turtle.pencolor("purple")
-turtle.pensize(1)
+turtle.pensize(2)
 
 turtle.penup()
 turtle.back(300)
@@ -42,6 +42,39 @@ def make_i():
 
 
 make_i()
+
+turtle.penup()
+turtle.forward(80)
+turtle.pendown()
+
+
+
+def make_s():
+    turtle.left(140)
+    turtle.fd(30)
+    turtle.left(80)
+    turtle.fd(30)
+    turtle.left(50)
+    turtle.fd(40)
+    turtle.left(70)
+    turtle.fd(45)
+    turtle.right(70)
+    turtle.fd(40)
+    turtle.right(65)
+    turtle.fd(30)
+    turtle.right(55)
+    turtle.fd(30)
+
+
+make_s()
+
+turtle.penup()
+turtle.right(90)
+turtle.fd(100)
+turtle.right(50)
+turtle.pendown()
+
+make_s()
 
 
 turtle.exitonclick()
