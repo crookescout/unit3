@@ -69,8 +69,8 @@ def make_s():
 make_s()
 
 turtle.penup()
-turtle.right(90)
-turtle.fd(100)
+turtle.right(120)
+turtle.fd(200)
 turtle.right(50)
 turtle.pendown()
 
