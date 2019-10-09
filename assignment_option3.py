@@ -44,7 +44,8 @@ def make_hexagon(color, length):
 
 def make_petals(color, length):
     """
-    this function draws the petal of the flower using the given color and length
+    this function draws the petal of the flower using the given color and length. It is needed because, otherwise,
+    it would draw over the same hexagon over and over
     :param color:
     :param length:
     :return: none
