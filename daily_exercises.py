@@ -45,7 +45,7 @@ happy_bd_ty()
 
 
 def plus(x, y):
-    print(x, "+", y, "=", x + y)
+    return x + y
 
 
 def main():
